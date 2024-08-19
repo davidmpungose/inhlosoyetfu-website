@@ -1,0 +1,8 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.card-img-top {
+    width: 100%;
+    padding-top: 56.25%; /* For a 16:9 aspect ratio */
+    object-fit: cover; /* Adjust the height as needed */
+  }
